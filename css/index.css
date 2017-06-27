@@ -1,0 +1,102 @@
+
+body{
+   margin: 0;
+   padding: 0;
+   font-family: 'Lato', sans-serif;
+   /*color: #eee;*/
+   background-color: #3c4752;
+}
+ul{
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+  color: #eee;
+}
+
+li{
+  display: inline;
+  padding:0px 10px 0px 10px;
+}
+.buttonLikeBorder{
+  border: 2px solid #e6eaeb;
+  padding: 5px 15px;
+}
+.cardImg{
+  height: 145px;
+  width: 325px;
+}
+.upBar{
+  height: 75px;
+}
+.yellowBack{
+  background-color: #db910f;
+  color: #e6eaeb;
+}
+.weirdWhiteBack{
+  background-color: #e6eaeb;
+}
+.weirdWhite{
+  color: #e6eaeb;
+}
+.suBar{
+  height: 35px;
+}
+.suBar a{
+  margin-top: 3px;
+  padding: 7px;
+}
+.cardThumb{
+  display: flex;
+  flex-direction: row;
+}
+.card{
+  background-color: white;
+  width: 325px;
+  height: 375px;
+  z-index: 1;
+  margin: -145px 2px 5px 2px;
+
+}
+.cardTittle{
+  margin: 10px;
+  border-bottom: 1px solid gray;
+  color: gray;
+}
+.cardSub{
+  margin-left: 10px;
+  color: gray;
+}
+.blacked{
+  color: black;
+}
+.sliderTittle{
+  color: white;
+}
+.sliderCardThumb{
+  display: flex;
+}
+.sliderCard{
+  width: 325px;
+  height: 375px;
+  background-image: url('../img/slideCard.jpg');
+  justify-content: flex-end;
+}
+.transp{
+  z-index: 1;
+  margin-top: 180px;
+  height: 195px;
+  background-color: rgba(55, 56, 58, 0.3);
+
+}
+.mainPicture{
+  background-image: url('../img/florian-klauer-119557.jpg');
+  height: 480px;
+}
+.brand ul{
+  float: right;
+}
+.plecked {
+  border-right: 1px solid #eee;
+
+}
